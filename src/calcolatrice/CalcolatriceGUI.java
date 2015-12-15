@@ -26,6 +26,7 @@ public class CalcolatriceGUI extends JFrame {
     private JPanel tastierinoPanel;
 
     public CalcolatriceGUI(Calcolatrice c) {
+        super();
         this.calcolatrice = c;
         allButtons = new ArrayList<CalcolatriceButton>();
         initComponents();
